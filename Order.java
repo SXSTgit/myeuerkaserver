@@ -1,7 +1,7 @@
 package com.zb.entity;
 
 import java.io.Serializable;
-
+//实现
 public class Order implements Serializable {
     private Integer id;
     private String title;
@@ -47,6 +47,5 @@ public class Order implements Serializable {
     }
 
     public void setUid(Integer uid) {
-        this.uid = uid;
-    }
-}
+        this.uid = uid
+	
